@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>HealthGuruPro.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>D9D54B331F5EBF4B006079F6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D9D54B471F5EBF4C006079F6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D9D54B521F5EBF4C006079F6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
