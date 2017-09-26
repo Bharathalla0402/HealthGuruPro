@@ -7,6 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E67F5249C2B713DACFDE09A /* Pods_HealthGuruProUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFC9E590D10D684EFD80C8A /* Pods_HealthGuruProUITests.framework */; };
+		6EE15E7280939C6526AD8CF3 /* Pods_HealthGuruPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96BFBFCE67FF6730C2D518F /* Pods_HealthGuruPro.framework */; };
+		D90FB77A1F6F88ED007D3F40 /* AddMoreTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90FB7791F6F88ED007D3F40 /* AddMoreTestViewController.swift */; };
+		D93C639F1F70F9FB00E6F85E /* HealthTopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C639E1F70F9FB00E6F85E /* HealthTopicViewController.swift */; };
+		D93C63A11F71031900E6F85E /* SpecificHealthTopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C63A01F71031900E6F85E /* SpecificHealthTopicViewController.swift */; };
+		D93C63A31F7108CD00E6F85E /* BlogDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C63A21F7108CD00E6F85E /* BlogDetailViewController.swift */; };
+		D94648791F6925CD0058DA54 /* MIDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94648771F6925CD0058DA54 /* MIDatePicker.swift */; };
+		D946487A1F6925CD0058DA54 /* MIDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = D94648781F6925CD0058DA54 /* MIDatePicker.xib */; };
+		D946487F1F694E280058DA54 /* AppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D946487E1F694E280058DA54 /* AppointmentsViewController.swift */; };
+		D94648811F6964B10058DA54 /* LabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94648801F6964B10058DA54 /* LabsViewController.swift */; };
+		D95197441F738A7F00408F8E /* ProcedurePackageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95197431F738A7F00408F8E /* ProcedurePackageViewController.m */; };
+		D951974E1F738AFA00408F8E /* ExpandableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D95197471F738AFA00408F8E /* ExpandableTableView.m */; };
+		D951974F1F738AFA00408F8E /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D95197491F738AFA00408F8E /* HeaderView.m */; };
+		D95197501F738AFA00408F8E /* FTFoldingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D951974B1F738AFA00408F8E /* FTFoldingTableView.m */; };
+		D95197511F738AFA00408F8E /* ALCustomColoredAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = D951974D1F738AFA00408F8E /* ALCustomColoredAccessory.m */; };
+		D95197541F738B9600408F8E /* ApiRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D95197531F738B9600408F8E /* ApiRequest.m */; };
+		D95197571F738FFB00408F8E /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = D95197561F738FFB00408F8E /* DejalActivityView.m */; };
+		D951975E1F73F22600408F8E /* UIFloatLabelTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D951975D1F73F22600408F8E /* UIFloatLabelTextField.m */; };
+		D9554AC91F690AA300328266 /* PatientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9554AC81F690AA300328266 /* PatientsViewController.swift */; };
+		D9712B081F6FD91000F9E8D0 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9712B071F6FD90F00F9E8D0 /* UserProfileViewController.swift */; };
+		D9712B0A1F6FF80E00F9E8D0 /* BlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9712B091F6FF80E00F9E8D0 /* BlogViewController.swift */; };
+		D975A6C51F72285D0079C3CE /* NotificationSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D975A6C41F72285D0079C3CE /* NotificationSettingViewController.swift */; };
+		D975A6C71F72515D0079C3CE /* FeedBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D975A6C61F72515D0079C3CE /* FeedBackViewController.swift */; };
+		D975A6C91F7299A80079C3CE /* DoctorProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D975A6C81F7299A80079C3CE /* DoctorProfileViewController.swift */; };
+		D97740331F6B943B009B990A /* QrReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97740321F6B943B009B990A /* QrReaderViewController.swift */; };
+		D97740351F6B96D0009B990A /* PatientProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97740341F6B96D0009B990A /* PatientProfileViewController.swift */; };
+		D97740411F6B9C01009B990A /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97740371F6B9C01009B990A /* QRCodeReader.swift */; };
+		D97740421F6B9C01009B990A /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97740381F6B9C01009B990A /* QRCodeReaderResult.swift */; };
+		D97740431F6B9C01009B990A /* QRCodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97740391F6B9C01009B990A /* QRCodeReaderView.swift */; };
+		D97740441F6B9C01009B990A /* QRCodeReaderViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D977403A1F6B9C01009B990A /* QRCodeReaderViewContainer.swift */; };
+		D97740451F6B9C01009B990A /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D977403B1F6B9C01009B990A /* QRCodeReaderViewController.swift */; };
+		D97740461F6B9C01009B990A /* QRCodeReaderViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D977403C1F6B9C01009B990A /* QRCodeReaderViewControllerBuilder.swift */; };
+		D97740471F6B9C01009B990A /* QRCodeReaderViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D977403D1F6B9C01009B990A /* QRCodeReaderViewControllerDelegate.swift */; };
+		D97740481F6B9C01009B990A /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D977403E1F6B9C01009B990A /* ReaderOverlayView.swift */; };
+		D97740491F6B9C01009B990A /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D977403F1F6B9C01009B990A /* SwitchCameraButton.swift */; };
+		D977404A1F6B9C01009B990A /* ToggleTorchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97740401F6B9C01009B990A /* ToggleTorchButton.swift */; };
+		D977404C1F6BACA4009B990A /* AppointmentHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D977404B1F6BACA4009B990A /* AppointmentHistoryViewController.swift */; };
+		D977404E1F6BC167009B990A /* DetailHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D977404D1F6BC167009B990A /* DetailHistoryViewController.swift */; };
+		D97740501F6BDCE1009B990A /* AdviceTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D977404F1F6BDCE1009B990A /* AdviceTestViewController.swift */; };
+		D984BCF01F5FC29400CB4115 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = D984BCEB1F5FC29400CB4115 /* Countries.swift */; };
+		D984BCF11F5FC29400CB4115 /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D984BCEC1F5FC29400CB4115 /* CountriesViewController.swift */; };
+		D984BCF21F5FC29400CB4115 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = D984BCED1F5FC29400CB4115 /* Country.swift */; };
+		D984BCF31F5FC29400CB4115 /* CountriesViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D984BCEF1F5FC29400CB4115 /* CountriesViewControllerDelegate.swift */; };
+		D984BCF51F5FD03A00CB4115 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D984BCF41F5FD03A00CB4115 /* PasswordViewController.swift */; };
+		D984BCF81F5FD1CA00CB4115 /* PinCodeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D984BCF71F5FD1CA00CB4115 /* PinCodeTextField.swift */; };
+		D984BCFA1F5FD1D100CB4115 /* PinCodeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D984BCF91F5FD1D100CB4115 /* PinCodeTextFieldDelegate.swift */; };
+		D984BCFE1F5FD1FB00CB4115 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D984BCFC1F5FD1FB00CB4115 /* IntExtension.swift */; };
+		D984BCFF1F5FD1FB00CB4115 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D984BCFD1F5FD1FB00CB4115 /* StringExtension.swift */; };
+		D984BD021F5FD22700CB4115 /* TextHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D984BD011F5FD22700CB4115 /* TextHelper.swift */; };
+		D989ACC11F6654B2003DF029 /* black_strip1.png in Resources */ = {isa = PBXBuildFile; fileRef = D989ACC01F6654B2003DF029 /* black_strip1.png */; };
+		D989ACC41F66752B003DF029 /* TimeSlotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989ACC21F66752B003DF029 /* TimeSlotCell.swift */; };
+		D989ACC51F66752B003DF029 /* TimeSlotCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D989ACC31F66752B003DF029 /* TimeSlotCell.xib */; };
+		D989ACC71F66809D003DF029 /* AddNewPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D989ACC61F66809D003DF029 /* AddNewPatientViewController.swift */; };
+		D99C6B9C1F628777003D8628 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D99C6B9B1F628777003D8628 /* HomeViewController.m */; };
+		D99C6B9F1F628832003D8628 /* SchedulelistCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D99C6B9E1F628832003D8628 /* SchedulelistCell.m */; };
+		D99C6BA11F62C4B5003D8628 /* AppointmentRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99C6BA01F62C4B5003D8628 /* AppointmentRequestViewController.swift */; };
+		D9B5D2F81F6118110082F332 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B5D2F61F6118110082F332 /* Constants.swift */; };
+		D9B5D2F91F6118110082F332 /* AFWrapperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B5D2F71F6118110082F332 /* AFWrapperClass.swift */; };
+		D9B5D2FD1F612CC90082F332 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B5D2FC1F612CC90082F332 /* TabbarViewController.swift */; };
 		D9D54B381F5EBF4B006079F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D54B371F5EBF4B006079F6 /* AppDelegate.swift */; };
 		D9D54B3A1F5EBF4C006079F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D54B391F5EBF4C006079F6 /* ViewController.swift */; };
 		D9D54B3D1F5EBF4C006079F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D54B3B1F5EBF4C006079F6 /* Main.storyboard */; };
@@ -14,6 +73,14 @@
 		D9D54B421F5EBF4C006079F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D54B401F5EBF4C006079F6 /* LaunchScreen.storyboard */; };
 		D9D54B4D1F5EBF4C006079F6 /* HealthGuruProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D54B4C1F5EBF4C006079F6 /* HealthGuruProTests.swift */; };
 		D9D54B581F5EBF4C006079F6 /* HealthGuruProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D54B571F5EBF4C006079F6 /* HealthGuruProUITests.swift */; };
+		D9D54B671F5ECE08006079F6 /* ACFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D54B661F5ECE08006079F6 /* ACFloatingTextfield.swift */; };
+		D9D54B721F5ED54B006079F6 /* HMDiallingCode.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D54B6D1F5ED54B006079F6 /* HMDiallingCode.m */; };
+		D9D54B731F5ED54B006079F6 /* DiallingCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9D54B6F1F5ED54B006079F6 /* DiallingCodes.plist */; };
+		D9E112FE1F602D8A0078F899 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E112FD1F602D8A0078F899 /* DashboardViewController.swift */; };
+		D9F7996A1F6A63E800070E90 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F799691F6A63E800070E90 /* NotificationViewController.swift */; };
+		D9F7996C1F6A747500070E90 /* AppointSpecificViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7996B1F6A747500070E90 /* AppointSpecificViewController.swift */; };
+		D9F7996E1F6A8DE800070E90 /* PatientDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F7996D1F6A8DE800070E90 /* PatientDetailViewController.swift */; };
+		DDBE86413483EA1D698A7038 /* Pods_HealthGuruProTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6738AEE8D85BCEFBD59848B /* Pods_HealthGuruProTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +101,82 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3EFC9E590D10D684EFD80C8A /* Pods_HealthGuruProUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthGuruProUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45AC0AEC61C35F404B7ADA24 /* Pods-HealthGuruProTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthGuruProTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthGuruProTests/Pods-HealthGuruProTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A3489A835FA7F2D52EEBAE2 /* Pods-HealthGuruPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthGuruPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthGuruPro/Pods-HealthGuruPro.release.xcconfig"; sourceTree = "<group>"; };
+		9811AD8F0FF945C8BEE63D45 /* Pods-HealthGuruProUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthGuruProUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthGuruProUITests/Pods-HealthGuruProUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C5DF380BA9491509C30DC089 /* Pods-HealthGuruProTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthGuruProTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthGuruProTests/Pods-HealthGuruProTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB2D99FA6918F99B7C4E65CD /* Pods-HealthGuruPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthGuruPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthGuruPro/Pods-HealthGuruPro.debug.xcconfig"; sourceTree = "<group>"; };
+		D90FB7791F6F88ED007D3F40 /* AddMoreTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMoreTestViewController.swift; sourceTree = "<group>"; };
+		D93C639E1F70F9FB00E6F85E /* HealthTopicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthTopicViewController.swift; sourceTree = "<group>"; };
+		D93C63A01F71031900E6F85E /* SpecificHealthTopicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificHealthTopicViewController.swift; sourceTree = "<group>"; };
+		D93C63A21F7108CD00E6F85E /* BlogDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogDetailViewController.swift; sourceTree = "<group>"; };
+		D94648771F6925CD0058DA54 /* MIDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIDatePicker.swift; sourceTree = "<group>"; };
+		D94648781F6925CD0058DA54 /* MIDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MIDatePicker.xib; sourceTree = "<group>"; };
+		D946487E1F694E280058DA54 /* AppointmentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentsViewController.swift; sourceTree = "<group>"; };
+		D94648801F6964B10058DA54 /* LabsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabsViewController.swift; sourceTree = "<group>"; };
+		D95197421F738A7F00408F8E /* ProcedurePackageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcedurePackageViewController.h; sourceTree = "<group>"; };
+		D95197431F738A7F00408F8E /* ProcedurePackageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcedurePackageViewController.m; sourceTree = "<group>"; };
+		D95197461F738AFA00408F8E /* ExpandableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandableTableView.h; sourceTree = "<group>"; };
+		D95197471F738AFA00408F8E /* ExpandableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandableTableView.m; sourceTree = "<group>"; };
+		D95197481F738AFA00408F8E /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		D95197491F738AFA00408F8E /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		D951974A1F738AFA00408F8E /* FTFoldingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTFoldingTableView.h; sourceTree = "<group>"; };
+		D951974B1F738AFA00408F8E /* FTFoldingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTFoldingTableView.m; sourceTree = "<group>"; };
+		D951974C1F738AFA00408F8E /* ALCustomColoredAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALCustomColoredAccessory.h; sourceTree = "<group>"; };
+		D951974D1F738AFA00408F8E /* ALCustomColoredAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALCustomColoredAccessory.m; sourceTree = "<group>"; };
+		D95197521F738B9600408F8E /* ApiRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiRequest.h; sourceTree = "<group>"; };
+		D95197531F738B9600408F8E /* ApiRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiRequest.m; sourceTree = "<group>"; };
+		D95197551F738FFB00408F8E /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
+		D95197561F738FFB00408F8E /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
+		D95197581F7399BC00408F8E /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		D951975C1F73F22600408F8E /* UIFloatLabelTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFloatLabelTextField.h; sourceTree = "<group>"; };
+		D951975D1F73F22600408F8E /* UIFloatLabelTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFloatLabelTextField.m; sourceTree = "<group>"; };
+		D9554AC81F690AA300328266 /* PatientsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientsViewController.swift; sourceTree = "<group>"; };
+		D96BFBFCE67FF6730C2D518F /* Pods_HealthGuruPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthGuruPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9712B071F6FD90F00F9E8D0 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		D9712B091F6FF80E00F9E8D0 /* BlogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogViewController.swift; sourceTree = "<group>"; };
+		D975A6C41F72285D0079C3CE /* NotificationSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationSettingViewController.swift; path = ../../NotificationSettingViewController.swift; sourceTree = "<group>"; };
+		D975A6C61F72515D0079C3CE /* FeedBackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedBackViewController.swift; sourceTree = "<group>"; };
+		D975A6C81F7299A80079C3CE /* DoctorProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorProfileViewController.swift; sourceTree = "<group>"; };
+		D97740321F6B943B009B990A /* QrReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrReaderViewController.swift; sourceTree = "<group>"; };
+		D97740341F6B96D0009B990A /* PatientProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientProfileViewController.swift; sourceTree = "<group>"; };
+		D97740371F6B9C01009B990A /* QRCodeReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReader.swift; sourceTree = "<group>"; };
+		D97740381F6B9C01009B990A /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderResult.swift; sourceTree = "<group>"; };
+		D97740391F6B9C01009B990A /* QRCodeReaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderView.swift; sourceTree = "<group>"; };
+		D977403A1F6B9C01009B990A /* QRCodeReaderViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewContainer.swift; sourceTree = "<group>"; };
+		D977403B1F6B9C01009B990A /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewController.swift; sourceTree = "<group>"; };
+		D977403C1F6B9C01009B990A /* QRCodeReaderViewControllerBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewControllerBuilder.swift; sourceTree = "<group>"; };
+		D977403D1F6B9C01009B990A /* QRCodeReaderViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeReaderViewControllerDelegate.swift; sourceTree = "<group>"; };
+		D977403E1F6B9C01009B990A /* ReaderOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderOverlayView.swift; sourceTree = "<group>"; };
+		D977403F1F6B9C01009B990A /* SwitchCameraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchCameraButton.swift; sourceTree = "<group>"; };
+		D97740401F6B9C01009B990A /* ToggleTorchButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleTorchButton.swift; sourceTree = "<group>"; };
+		D977404B1F6BACA4009B990A /* AppointmentHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentHistoryViewController.swift; sourceTree = "<group>"; };
+		D977404D1F6BC167009B990A /* DetailHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailHistoryViewController.swift; sourceTree = "<group>"; };
+		D977404F1F6BDCE1009B990A /* AdviceTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdviceTestViewController.swift; sourceTree = "<group>"; };
+		D984BCEB1F5FC29400CB4115 /* Countries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		D984BCEC1F5FC29400CB4115 /* CountriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
+		D984BCED1F5FC29400CB4115 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		D984BCEE1F5FC29400CB4115 /* CountriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountriesViewController.h; sourceTree = "<group>"; };
+		D984BCEF1F5FC29400CB4115 /* CountriesViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesViewControllerDelegate.swift; sourceTree = "<group>"; };
+		D984BCF41F5FD03A00CB4115 /* PasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		D984BCF71F5FD1CA00CB4115 /* PinCodeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinCodeTextField.swift; sourceTree = "<group>"; };
+		D984BCF91F5FD1D100CB4115 /* PinCodeTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinCodeTextFieldDelegate.swift; sourceTree = "<group>"; };
+		D984BCFC1F5FD1FB00CB4115 /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		D984BCFD1F5FD1FB00CB4115 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		D984BD011F5FD22700CB4115 /* TextHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextHelper.swift; sourceTree = "<group>"; };
+		D989ACC01F6654B2003DF029 /* black_strip1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_strip1.png; sourceTree = "<group>"; };
+		D989ACC21F66752B003DF029 /* TimeSlotCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSlotCell.swift; sourceTree = "<group>"; };
+		D989ACC31F66752B003DF029 /* TimeSlotCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeSlotCell.xib; sourceTree = "<group>"; };
+		D989ACC61F66809D003DF029 /* AddNewPatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewPatientViewController.swift; sourceTree = "<group>"; };
+		D99C6B9A1F628777003D8628 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D99C6B9B1F628777003D8628 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D99C6B9D1F628832003D8628 /* SchedulelistCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchedulelistCell.h; sourceTree = "<group>"; };
+		D99C6B9E1F628832003D8628 /* SchedulelistCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchedulelistCell.m; sourceTree = "<group>"; };
+		D99C6BA01F62C4B5003D8628 /* AppointmentRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentRequestViewController.swift; sourceTree = "<group>"; };
+		D9B5D2F61F6118110082F332 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D9B5D2F71F6118110082F332 /* AFWrapperClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFWrapperClass.swift; sourceTree = "<group>"; };
+		D9B5D2FC1F612CC90082F332 /* TabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		D9D54B341F5EBF4B006079F6 /* HealthGuruPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthGuruPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D54B371F5EBF4B006079F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D54B391F5EBF4C006079F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +190,17 @@
 		D9D54B531F5EBF4C006079F6 /* HealthGuruProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthGuruProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D54B571F5EBF4C006079F6 /* HealthGuruProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthGuruProUITests.swift; sourceTree = "<group>"; };
 		D9D54B591F5EBF4C006079F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D54B661F5ECE08006079F6 /* ACFloatingTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACFloatingTextfield.swift; sourceTree = "<group>"; };
+		D9D54B691F5ED545006079F6 /* HealthGuruPro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HealthGuruPro-Bridging-Header.h"; sourceTree = "<group>"; };
+		D9D54B6D1F5ED54B006079F6 /* HMDiallingCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMDiallingCode.m; sourceTree = "<group>"; };
+		D9D54B6E1F5ED54B006079F6 /* HMDiallingCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMDiallingCode.h; sourceTree = "<group>"; };
+		D9D54B6F1F5ED54B006079F6 /* DiallingCodes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DiallingCodes.plist; sourceTree = "<group>"; };
+		D9E112FD1F602D8A0078F899 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		D9F799691F6A63E800070E90 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		D9F7996B1F6A747500070E90 /* AppointSpecificViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointSpecificViewController.swift; sourceTree = "<group>"; };
+		D9F7996D1F6A8DE800070E90 /* PatientDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientDetailViewController.swift; sourceTree = "<group>"; };
+		F0E6E640097F2A92F41F11D0 /* Pods-HealthGuruProUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthGuruProUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthGuruProUITests/Pods-HealthGuruProUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6738AEE8D85BCEFBD59848B /* Pods_HealthGuruProTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthGuruProTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +208,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EE15E7280939C6526AD8CF3 /* Pods_HealthGuruPro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +216,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDBE86413483EA1D698A7038 /* Pods_HealthGuruProTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +224,174 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E67F5249C2B713DACFDE09A /* Pods_HealthGuruProUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D94648761F6925A80058DA54 /* Date Picker */ = {
+			isa = PBXGroup;
+			children = (
+				D94648771F6925CD0058DA54 /* MIDatePicker.swift */,
+				D94648781F6925CD0058DA54 /* MIDatePicker.xib */,
+			);
+			name = "Date Picker";
+			sourceTree = "<group>";
+		};
+		D946487D1F694DED0058DA54 /* Appointments */ = {
+			isa = PBXGroup;
+			children = (
+				D946487E1F694E280058DA54 /* AppointmentsViewController.swift */,
+				D9F7996D1F6A8DE800070E90 /* PatientDetailViewController.swift */,
+				D97740321F6B943B009B990A /* QrReaderViewController.swift */,
+				D97740341F6B96D0009B990A /* PatientProfileViewController.swift */,
+				D977404B1F6BACA4009B990A /* AppointmentHistoryViewController.swift */,
+				D977404D1F6BC167009B990A /* DetailHistoryViewController.swift */,
+				D977404F1F6BDCE1009B990A /* AdviceTestViewController.swift */,
+				D90FB7791F6F88ED007D3F40 /* AddMoreTestViewController.swift */,
+			);
+			name = Appointments;
+			sourceTree = "<group>";
+		};
+		D95197451F738AD100408F8E /* Table View Support */ = {
+			isa = PBXGroup;
+			children = (
+				D951975C1F73F22600408F8E /* UIFloatLabelTextField.h */,
+				D951975D1F73F22600408F8E /* UIFloatLabelTextField.m */,
+				D95197521F738B9600408F8E /* ApiRequest.h */,
+				D95197531F738B9600408F8E /* ApiRequest.m */,
+				D95197551F738FFB00408F8E /* DejalActivityView.h */,
+				D95197561F738FFB00408F8E /* DejalActivityView.m */,
+				D95197581F7399BC00408F8E /* constants.h */,
+				D95197461F738AFA00408F8E /* ExpandableTableView.h */,
+				D95197471F738AFA00408F8E /* ExpandableTableView.m */,
+				D95197481F738AFA00408F8E /* HeaderView.h */,
+				D95197491F738AFA00408F8E /* HeaderView.m */,
+				D951974A1F738AFA00408F8E /* FTFoldingTableView.h */,
+				D951974B1F738AFA00408F8E /* FTFoldingTableView.m */,
+				D951974C1F738AFA00408F8E /* ALCustomColoredAccessory.h */,
+				D951974D1F738AFA00408F8E /* ALCustomColoredAccessory.m */,
+			);
+			name = "Table View Support";
+			sourceTree = "<group>";
+		};
+		D9554AC71F690A6100328266 /* Patients */ = {
+			isa = PBXGroup;
+			children = (
+				D9554AC81F690AA300328266 /* PatientsViewController.swift */,
+			);
+			name = Patients;
+			sourceTree = "<group>";
+		};
+		D9712B051F6FD88D00F9E8D0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D9712B071F6FD90F00F9E8D0 /* UserProfileViewController.swift */,
+				D975A6C81F7299A80079C3CE /* DoctorProfileViewController.swift */,
+				D95197421F738A7F00408F8E /* ProcedurePackageViewController.h */,
+				D95197431F738A7F00408F8E /* ProcedurePackageViewController.m */,
+				D975A6C41F72285D0079C3CE /* NotificationSettingViewController.swift */,
+				D975A6C61F72515D0079C3CE /* FeedBackViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		D9712B061F6FD8A100F9E8D0 /* Blog */ = {
+			isa = PBXGroup;
+			children = (
+				D9712B091F6FF80E00F9E8D0 /* BlogViewController.swift */,
+				D93C639E1F70F9FB00E6F85E /* HealthTopicViewController.swift */,
+				D93C63A01F71031900E6F85E /* SpecificHealthTopicViewController.swift */,
+				D93C63A21F7108CD00E6F85E /* BlogDetailViewController.swift */,
+			);
+			name = Blog;
+			sourceTree = "<group>";
+		};
+		D97740361F6B9BDB009B990A /* QR Code Reader */ = {
+			isa = PBXGroup;
+			children = (
+				D97740371F6B9C01009B990A /* QRCodeReader.swift */,
+				D97740381F6B9C01009B990A /* QRCodeReaderResult.swift */,
+				D97740391F6B9C01009B990A /* QRCodeReaderView.swift */,
+				D977403A1F6B9C01009B990A /* QRCodeReaderViewContainer.swift */,
+				D977403B1F6B9C01009B990A /* QRCodeReaderViewController.swift */,
+				D977403C1F6B9C01009B990A /* QRCodeReaderViewControllerBuilder.swift */,
+				D977403D1F6B9C01009B990A /* QRCodeReaderViewControllerDelegate.swift */,
+				D977403E1F6B9C01009B990A /* ReaderOverlayView.swift */,
+				D977403F1F6B9C01009B990A /* SwitchCameraButton.swift */,
+				D97740401F6B9C01009B990A /* ToggleTorchButton.swift */,
+			);
+			name = "QR Code Reader";
+			sourceTree = "<group>";
+		};
+		D984BCEA1F5FC24800CB4115 /* Country View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D984BCEB1F5FC29400CB4115 /* Countries.swift */,
+				D984BCEC1F5FC29400CB4115 /* CountriesViewController.swift */,
+				D984BCED1F5FC29400CB4115 /* Country.swift */,
+				D984BCEE1F5FC29400CB4115 /* CountriesViewController.h */,
+				D984BCEF1F5FC29400CB4115 /* CountriesViewControllerDelegate.swift */,
+			);
+			name = "Country View Controller";
+			sourceTree = "<group>";
+		};
+		D984BCF61F5FD1A100CB4115 /* Password Textfield */ = {
+			isa = PBXGroup;
+			children = (
+				D984BCF71F5FD1CA00CB4115 /* PinCodeTextField.swift */,
+				D984BCF91F5FD1D100CB4115 /* PinCodeTextFieldDelegate.swift */,
+				D984BD001F5FD20F00CB4115 /* Text Helper */,
+				D984BCFB1F5FD1E900CB4115 /* Extensions */,
+			);
+			name = "Password Textfield";
+			sourceTree = "<group>";
+		};
+		D984BCFB1F5FD1E900CB4115 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D984BCFC1F5FD1FB00CB4115 /* IntExtension.swift */,
+				D984BCFD1F5FD1FB00CB4115 /* StringExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		D984BD001F5FD20F00CB4115 /* Text Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D984BD011F5FD22700CB4115 /* TextHelper.swift */,
+			);
+			name = "Text Helper";
+			sourceTree = "<group>";
+		};
+		D989ACBF1F665490003DF029 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D989ACC01F6654B2003DF029 /* black_strip1.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D9B5D2FE1F614AE10082F332 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D9E112FD1F602D8A0078F899 /* DashboardViewController.swift */,
+				D99C6B9A1F628777003D8628 /* HomeViewController.h */,
+				D99C6B9B1F628777003D8628 /* HomeViewController.m */,
+				D99C6B9D1F628832003D8628 /* SchedulelistCell.h */,
+				D99C6B9E1F628832003D8628 /* SchedulelistCell.m */,
+				D99C6BA01F62C4B5003D8628 /* AppointmentRequestViewController.swift */,
+				D989ACC21F66752B003DF029 /* TimeSlotCell.swift */,
+				D989ACC31F66752B003DF029 /* TimeSlotCell.xib */,
+				D989ACC61F66809D003DF029 /* AddNewPatientViewController.swift */,
+				D94648801F6964B10058DA54 /* LabsViewController.swift */,
+				D9F7996B1F6A747500070E90 /* AppointSpecificViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
 		D9D54B2B1F5EBF4B006079F6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +399,8 @@
 				D9D54B4B1F5EBF4C006079F6 /* HealthGuruProTests */,
 				D9D54B561F5EBF4C006079F6 /* HealthGuruProUITests */,
 				D9D54B351F5EBF4B006079F6 /* Products */,
+				E9635F0C5E996EC2087434E1 /* Pods */,
+				F359FAA00ECEE8691B48A6AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +419,13 @@
 			children = (
 				D9D54B371F5EBF4B006079F6 /* AppDelegate.swift */,
 				D9D54B391F5EBF4C006079F6 /* ViewController.swift */,
+				D984BCF41F5FD03A00CB4115 /* PasswordViewController.swift */,
+				D9E112FC1F602D4E0078F899 /* Doctor View Controllers */,
 				D9D54B3B1F5EBF4C006079F6 /* Main.storyboard */,
 				D9D54B3E1F5EBF4C006079F6 /* Assets.xcassets */,
 				D9D54B401F5EBF4C006079F6 /* LaunchScreen.storyboard */,
 				D9D54B431F5EBF4C006079F6 /* Info.plist */,
+				D9D54B651F5ECD72006079F6 /* Support Libraries */,
 			);
 			path = HealthGuruPro;
 			sourceTree = "<group>";
@@ -125,6 +448,79 @@
 			path = HealthGuruProUITests;
 			sourceTree = "<group>";
 		};
+		D9D54B651F5ECD72006079F6 /* Support Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				D9D54B691F5ED545006079F6 /* HealthGuruPro-Bridging-Header.h */,
+				D9D54B661F5ECE08006079F6 /* ACFloatingTextfield.swift */,
+				D9B5D2F61F6118110082F332 /* Constants.swift */,
+				D9B5D2F71F6118110082F332 /* AFWrapperClass.swift */,
+				D95197451F738AD100408F8E /* Table View Support */,
+				D97740361F6B9BDB009B990A /* QR Code Reader */,
+				D94648761F6925A80058DA54 /* Date Picker */,
+				D989ACBF1F665490003DF029 /* Images */,
+				D984BCF61F5FD1A100CB4115 /* Password Textfield */,
+				D984BCEA1F5FC24800CB4115 /* Country View Controller */,
+				D9D54B681F5ED525006079F6 /* Country Picker */,
+			);
+			name = "Support Libraries";
+			sourceTree = "<group>";
+		};
+		D9D54B681F5ED525006079F6 /* Country Picker */ = {
+			isa = PBXGroup;
+			children = (
+				D9D54B6D1F5ED54B006079F6 /* HMDiallingCode.m */,
+				D9D54B6E1F5ED54B006079F6 /* HMDiallingCode.h */,
+				D9D54B6F1F5ED54B006079F6 /* DiallingCodes.plist */,
+			);
+			name = "Country Picker";
+			sourceTree = "<group>";
+		};
+		D9E112FC1F602D4E0078F899 /* Doctor View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9B5D2FC1F612CC90082F332 /* TabbarViewController.swift */,
+				D9F799681F6A63C300070E90 /* Notifications */,
+				D9B5D2FE1F614AE10082F332 /* Home */,
+				D9554AC71F690A6100328266 /* Patients */,
+				D946487D1F694DED0058DA54 /* Appointments */,
+				D9712B061F6FD8A100F9E8D0 /* Blog */,
+				D9712B051F6FD88D00F9E8D0 /* Profile */,
+			);
+			name = "Doctor View Controllers";
+			sourceTree = "<group>";
+		};
+		D9F799681F6A63C300070E90 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				D9F799691F6A63E800070E90 /* NotificationViewController.swift */,
+			);
+			name = Notifications;
+			sourceTree = "<group>";
+		};
+		E9635F0C5E996EC2087434E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB2D99FA6918F99B7C4E65CD /* Pods-HealthGuruPro.debug.xcconfig */,
+				8A3489A835FA7F2D52EEBAE2 /* Pods-HealthGuruPro.release.xcconfig */,
+				C5DF380BA9491509C30DC089 /* Pods-HealthGuruProTests.debug.xcconfig */,
+				45AC0AEC61C35F404B7ADA24 /* Pods-HealthGuruProTests.release.xcconfig */,
+				F0E6E640097F2A92F41F11D0 /* Pods-HealthGuruProUITests.debug.xcconfig */,
+				9811AD8F0FF945C8BEE63D45 /* Pods-HealthGuruProUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F359FAA00ECEE8691B48A6AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D96BFBFCE67FF6730C2D518F /* Pods_HealthGuruPro.framework */,
+				F6738AEE8D85BCEFBD59848B /* Pods_HealthGuruProTests.framework */,
+				3EFC9E590D10D684EFD80C8A /* Pods_HealthGuruProUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +528,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9D54B5C1F5EBF4C006079F6 /* Build configuration list for PBXNativeTarget "HealthGuruPro" */;
 			buildPhases = (
+				29F0B6659AEF5D99D96DB547 /* [CP] Check Pods Manifest.lock */,
 				D9D54B301F5EBF4B006079F6 /* Sources */,
 				D9D54B311F5EBF4B006079F6 /* Frameworks */,
 				D9D54B321F5EBF4B006079F6 /* Resources */,
+				7106673D668D8411316FAD46 /* [CP] Embed Pods Frameworks */,
+				25E8D8BDCD152CD80021BF12 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +548,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9D54B5F1F5EBF4C006079F6 /* Build configuration list for PBXNativeTarget "HealthGuruProTests" */;
 			buildPhases = (
+				21E6FF430F064A0633F86DAB /* [CP] Check Pods Manifest.lock */,
 				D9D54B441F5EBF4C006079F6 /* Sources */,
 				D9D54B451F5EBF4C006079F6 /* Frameworks */,
 				D9D54B461F5EBF4C006079F6 /* Resources */,
+				DF3892753964B7E0E53A61FD /* [CP] Embed Pods Frameworks */,
+				02DC7888C464E62B23920298 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +569,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9D54B621F5EBF4C006079F6 /* Build configuration list for PBXNativeTarget "HealthGuruProUITests" */;
 			buildPhases = (
+				2165877C7A7FE5C5E88B87EB /* [CP] Check Pods Manifest.lock */,
 				D9D54B4F1F5EBF4C006079F6 /* Sources */,
 				D9D54B501F5EBF4C006079F6 /* Frameworks */,
 				D9D54B511F5EBF4C006079F6 /* Resources */,
+				91ADB59D96DA38EFD5D0D421 /* [CP] Embed Pods Frameworks */,
+				DBAFA4B9A4B2EF0B367D1EBD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +599,7 @@
 					D9D54B331F5EBF4B006079F6 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 286BCTD55N;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					D9D54B471F5EBF4C006079F6 = {
@@ -237,6 +643,10 @@
 			files = (
 				D9D54B421F5EBF4C006079F6 /* LaunchScreen.storyboard in Resources */,
 				D9D54B3F1F5EBF4C006079F6 /* Assets.xcassets in Resources */,
+				D9D54B731F5ED54B006079F6 /* DiallingCodes.plist in Resources */,
+				D989ACC11F6654B2003DF029 /* black_strip1.png in Resources */,
+				D946487A1F6925CD0058DA54 /* MIDatePicker.xib in Resources */,
+				D989ACC51F66752B003DF029 /* TimeSlotCell.xib in Resources */,
 				D9D54B3D1F5EBF4C006079F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +667,211 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02DC7888C464E62B23920298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthGuruProTests/Pods-HealthGuruProTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2165877C7A7FE5C5E88B87EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		21E6FF430F064A0633F86DAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		25E8D8BDCD152CD80021BF12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthGuruPro/Pods-HealthGuruPro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29F0B6659AEF5D99D96DB547 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7106673D668D8411316FAD46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthGuruPro/Pods-HealthGuruPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91ADB59D96DA38EFD5D0D421 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthGuruProUITests/Pods-HealthGuruProUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBAFA4B9A4B2EF0B367D1EBD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthGuruProUITests/Pods-HealthGuruProUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF3892753964B7E0E53A61FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthGuruProTests/Pods-HealthGuruProTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D9D54B301F5EBF4B006079F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D984BCFA1F5FD1D100CB4115 /* PinCodeTextFieldDelegate.swift in Sources */,
+				D97740411F6B9C01009B990A /* QRCodeReader.swift in Sources */,
 				D9D54B3A1F5EBF4C006079F6 /* ViewController.swift in Sources */,
+				D984BCF11F5FC29400CB4115 /* CountriesViewController.swift in Sources */,
+				D97740471F6B9C01009B990A /* QRCodeReaderViewControllerDelegate.swift in Sources */,
+				D975A6C91F7299A80079C3CE /* DoctorProfileViewController.swift in Sources */,
+				D97740431F6B9C01009B990A /* QRCodeReaderView.swift in Sources */,
+				D9D54B671F5ECE08006079F6 /* ACFloatingTextfield.swift in Sources */,
+				D984BCF31F5FC29400CB4115 /* CountriesViewControllerDelegate.swift in Sources */,
+				D951975E1F73F22600408F8E /* UIFloatLabelTextField.m in Sources */,
+				D984BCFE1F5FD1FB00CB4115 /* IntExtension.swift in Sources */,
+				D90FB77A1F6F88ED007D3F40 /* AddMoreTestViewController.swift in Sources */,
+				D97740421F6B9C01009B990A /* QRCodeReaderResult.swift in Sources */,
+				D93C639F1F70F9FB00E6F85E /* HealthTopicViewController.swift in Sources */,
+				D951974F1F738AFA00408F8E /* HeaderView.m in Sources */,
+				D95197541F738B9600408F8E /* ApiRequest.m in Sources */,
+				D97740481F6B9C01009B990A /* ReaderOverlayView.swift in Sources */,
+				D93C63A31F7108CD00E6F85E /* BlogDetailViewController.swift in Sources */,
+				D946487F1F694E280058DA54 /* AppointmentsViewController.swift in Sources */,
+				D977404A1F6B9C01009B990A /* ToggleTorchButton.swift in Sources */,
+				D94648791F6925CD0058DA54 /* MIDatePicker.swift in Sources */,
+				D95197501F738AFA00408F8E /* FTFoldingTableView.m in Sources */,
+				D9F7996C1F6A747500070E90 /* AppointSpecificViewController.swift in Sources */,
+				D9554AC91F690AA300328266 /* PatientsViewController.swift in Sources */,
+				D95197571F738FFB00408F8E /* DejalActivityView.m in Sources */,
+				D93C63A11F71031900E6F85E /* SpecificHealthTopicViewController.swift in Sources */,
+				D97740351F6B96D0009B990A /* PatientProfileViewController.swift in Sources */,
+				D97740331F6B943B009B990A /* QrReaderViewController.swift in Sources */,
+				D951974E1F738AFA00408F8E /* ExpandableTableView.m in Sources */,
+				D97740461F6B9C01009B990A /* QRCodeReaderViewControllerBuilder.swift in Sources */,
+				D984BD021F5FD22700CB4115 /* TextHelper.swift in Sources */,
+				D977404E1F6BC167009B990A /* DetailHistoryViewController.swift in Sources */,
+				D975A6C71F72515D0079C3CE /* FeedBackViewController.swift in Sources */,
+				D9F7996A1F6A63E800070E90 /* NotificationViewController.swift in Sources */,
+				D9B5D2F81F6118110082F332 /* Constants.swift in Sources */,
+				D9712B081F6FD91000F9E8D0 /* UserProfileViewController.swift in Sources */,
+				D97740451F6B9C01009B990A /* QRCodeReaderViewController.swift in Sources */,
+				D99C6BA11F62C4B5003D8628 /* AppointmentRequestViewController.swift in Sources */,
+				D9B5D2FD1F612CC90082F332 /* TabbarViewController.swift in Sources */,
+				D9E112FE1F602D8A0078F899 /* DashboardViewController.swift in Sources */,
+				D95197441F738A7F00408F8E /* ProcedurePackageViewController.m in Sources */,
+				D95197511F738AFA00408F8E /* ALCustomColoredAccessory.m in Sources */,
+				D984BCF81F5FD1CA00CB4115 /* PinCodeTextField.swift in Sources */,
+				D9F7996E1F6A8DE800070E90 /* PatientDetailViewController.swift in Sources */,
+				D97740501F6BDCE1009B990A /* AdviceTestViewController.swift in Sources */,
+				D984BCF21F5FC29400CB4115 /* Country.swift in Sources */,
+				D9D54B721F5ED54B006079F6 /* HMDiallingCode.m in Sources */,
+				D977404C1F6BACA4009B990A /* AppointmentHistoryViewController.swift in Sources */,
+				D989ACC41F66752B003DF029 /* TimeSlotCell.swift in Sources */,
+				D984BCF01F5FC29400CB4115 /* Countries.swift in Sources */,
+				D989ACC71F66809D003DF029 /* AddNewPatientViewController.swift in Sources */,
+				D9712B0A1F6FF80E00F9E8D0 /* BlogViewController.swift in Sources */,
 				D9D54B381F5EBF4B006079F6 /* AppDelegate.swift in Sources */,
+				D97740441F6B9C01009B990A /* QRCodeReaderViewContainer.swift in Sources */,
+				D9B5D2F91F6118110082F332 /* AFWrapperClass.swift in Sources */,
+				D984BCFF1F5FD1FB00CB4115 /* StringExtension.swift in Sources */,
+				D975A6C51F72285D0079C3CE /* NotificationSettingViewController.swift in Sources */,
+				D97740491F6B9C01009B990A /* SwitchCameraButton.swift in Sources */,
+				D99C6B9C1F628777003D8628 /* HomeViewController.m in Sources */,
+				D94648811F6964B10058DA54 /* LabsViewController.swift in Sources */,
+				D99C6B9F1F628832003D8628 /* SchedulelistCell.m in Sources */,
+				D984BCF51F5FD03A00CB4115 /* PasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,32 +1021,44 @@
 		};
 		D9D54B5D1F5EBF4C006079F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB2D99FA6918F99B7C4E65CD /* Pods-HealthGuruPro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 286BCTD55N;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HealthGuruPro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Think360.HealthGuruPro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HealthGuruPro/HealthGuruPro-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		D9D54B5E1F5EBF4C006079F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A3489A835FA7F2D52EEBAE2 /* Pods-HealthGuruPro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 286BCTD55N;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HealthGuruPro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Think360.HealthGuruPro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HealthGuruPro/HealthGuruPro-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		D9D54B601F5EBF4C006079F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5DF380BA9491509C30DC089 /* Pods-HealthGuruProTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +1074,7 @@
 		};
 		D9D54B611F5EBF4C006079F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45AC0AEC61C35F404B7ADA24 /* Pods-HealthGuruProTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +1090,7 @@
 		};
 		D9D54B631F5EBF4C006079F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0E6E640097F2A92F41F11D0 /* Pods-HealthGuruProUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 286BCTD55N;
@@ -483,6 +1105,7 @@
 		};
 		D9D54B641F5EBF4C006079F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9811AD8F0FF945C8BEE63D45 /* Pods-HealthGuruProUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 286BCTD55N;
@@ -514,6 +1137,7 @@
 				D9D54B5E1F5EBF4C006079F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9D54B5F1F5EBF4C006079F6 /* Build configuration list for PBXNativeTarget "HealthGuruProTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +1146,7 @@
 				D9D54B611F5EBF4C006079F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9D54B621F5EBF4C006079F6 /* Build configuration list for PBXNativeTarget "HealthGuruProUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +1155,7 @@
 				D9D54B641F5EBF4C006079F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
