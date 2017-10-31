@@ -1317,7 +1317,6 @@ static NSString *DemoTableViewIdentifier        = @"DemoTableViewIdentifier";
 {
     [footerview removeFromSuperview];
     popview.hidden = YES;
-
 }
 
 

@@ -80,14 +80,11 @@ class ViewController: UIViewController,HMDiallingCodeDelegate,CountriesViewContr
         countries.forEach { (co) in
             res = res + co.name + "\n";
         }
-       
-        
     }
     
     func countriesViewControllerDidCancel(_ countriesViewController: CountriesViewController) {
         
        
-        
     }
     
     func countriesViewController(_ countriesViewController: CountriesViewController, didSelectCountry country: Country) {

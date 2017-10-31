@@ -17,6 +17,7 @@
 		D946487A1F6925CD0058DA54 /* MIDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = D94648781F6925CD0058DA54 /* MIDatePicker.xib */; };
 		D946487F1F694E280058DA54 /* AppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D946487E1F694E280058DA54 /* AppointmentsViewController.swift */; };
 		D94648811F6964B10058DA54 /* LabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94648801F6964B10058DA54 /* LabsViewController.swift */; };
+		D94C97C41F7B656200B3EA2D /* NotificationSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94C97C31F7B656200B3EA2D /* NotificationSettingViewController.swift */; };
 		D95197441F738A7F00408F8E /* ProcedurePackageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95197431F738A7F00408F8E /* ProcedurePackageViewController.m */; };
 		D951974E1F738AFA00408F8E /* ExpandableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D95197471F738AFA00408F8E /* ExpandableTableView.m */; };
 		D951974F1F738AFA00408F8E /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D95197491F738AFA00408F8E /* HeaderView.m */; };
@@ -28,7 +29,6 @@
 		D9554AC91F690AA300328266 /* PatientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9554AC81F690AA300328266 /* PatientsViewController.swift */; };
 		D9712B081F6FD91000F9E8D0 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9712B071F6FD90F00F9E8D0 /* UserProfileViewController.swift */; };
 		D9712B0A1F6FF80E00F9E8D0 /* BlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9712B091F6FF80E00F9E8D0 /* BlogViewController.swift */; };
-		D975A6C51F72285D0079C3CE /* NotificationSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D975A6C41F72285D0079C3CE /* NotificationSettingViewController.swift */; };
 		D975A6C71F72515D0079C3CE /* FeedBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D975A6C61F72515D0079C3CE /* FeedBackViewController.swift */; };
 		D975A6C91F7299A80079C3CE /* DoctorProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D975A6C81F7299A80079C3CE /* DoctorProfileViewController.swift */; };
 		D97740331F6B943B009B990A /* QrReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97740321F6B943B009B990A /* QrReaderViewController.swift */; };
@@ -115,6 +115,7 @@
 		D94648781F6925CD0058DA54 /* MIDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MIDatePicker.xib; sourceTree = "<group>"; };
 		D946487E1F694E280058DA54 /* AppointmentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentsViewController.swift; sourceTree = "<group>"; };
 		D94648801F6964B10058DA54 /* LabsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabsViewController.swift; sourceTree = "<group>"; };
+		D94C97C31F7B656200B3EA2D /* NotificationSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationSettingViewController.swift; sourceTree = "<group>"; };
 		D95197421F738A7F00408F8E /* ProcedurePackageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcedurePackageViewController.h; sourceTree = "<group>"; };
 		D95197431F738A7F00408F8E /* ProcedurePackageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcedurePackageViewController.m; sourceTree = "<group>"; };
 		D95197461F738AFA00408F8E /* ExpandableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandableTableView.h; sourceTree = "<group>"; };
@@ -136,7 +137,6 @@
 		D96BFBFCE67FF6730C2D518F /* Pods_HealthGuruPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthGuruPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9712B071F6FD90F00F9E8D0 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		D9712B091F6FF80E00F9E8D0 /* BlogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogViewController.swift; sourceTree = "<group>"; };
-		D975A6C41F72285D0079C3CE /* NotificationSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationSettingViewController.swift; path = ../../NotificationSettingViewController.swift; sourceTree = "<group>"; };
 		D975A6C61F72515D0079C3CE /* FeedBackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedBackViewController.swift; sourceTree = "<group>"; };
 		D975A6C81F7299A80079C3CE /* DoctorProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorProfileViewController.swift; sourceTree = "<group>"; };
 		D97740321F6B943B009B990A /* QrReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrReaderViewController.swift; sourceTree = "<group>"; };
@@ -292,7 +292,7 @@
 				D975A6C81F7299A80079C3CE /* DoctorProfileViewController.swift */,
 				D95197421F738A7F00408F8E /* ProcedurePackageViewController.h */,
 				D95197431F738A7F00408F8E /* ProcedurePackageViewController.m */,
-				D975A6C41F72285D0079C3CE /* NotificationSettingViewController.swift */,
+				D94C97C31F7B656200B3EA2D /* NotificationSettingViewController.swift */,
 				D975A6C61F72515D0079C3CE /* FeedBackViewController.swift */,
 			);
 			name = Profile;
@@ -810,6 +810,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D94C97C41F7B656200B3EA2D /* NotificationSettingViewController.swift in Sources */,
 				D984BCFA1F5FD1D100CB4115 /* PinCodeTextFieldDelegate.swift in Sources */,
 				D97740411F6B9C01009B990A /* QRCodeReader.swift in Sources */,
 				D9D54B3A1F5EBF4C006079F6 /* ViewController.swift in Sources */,
@@ -866,7 +867,6 @@
 				D97740441F6B9C01009B990A /* QRCodeReaderViewContainer.swift in Sources */,
 				D9B5D2F91F6118110082F332 /* AFWrapperClass.swift in Sources */,
 				D984BCFF1F5FD1FB00CB4115 /* StringExtension.swift in Sources */,
-				D975A6C51F72285D0079C3CE /* NotificationSettingViewController.swift in Sources */,
 				D97740491F6B9C01009B990A /* SwitchCameraButton.swift in Sources */,
 				D99C6B9C1F628777003D8628 /* HomeViewController.m in Sources */,
 				D94648811F6964B10058DA54 /* LabsViewController.swift in Sources */,
